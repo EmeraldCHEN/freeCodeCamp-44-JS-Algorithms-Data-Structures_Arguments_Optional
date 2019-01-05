@@ -15,7 +15,7 @@ function addTogether(){
         }else{
             // Making use of closure
             return function(secondArgument){
-                if(typeof b !== 'number'){
+                if(typeof secondArgument !== 'number'){
                     return undefined;
                 }else{
                     return argsArray[0] + secondArgument;
