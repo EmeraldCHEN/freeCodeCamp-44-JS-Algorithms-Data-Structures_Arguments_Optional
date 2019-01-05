@@ -27,3 +27,7 @@ function addTogether(){
 addTogether(2, 3); // return 5
 addTogether(2)(3); // return 5
 addTogether(2, "3"); // return undefined
+
+
+
+// Retrieved from https://guide.freecodecamp.org/certifications/javascript-algorithms-and-data-structures/intermediate-algorithm-scripting/arguments-optional/
